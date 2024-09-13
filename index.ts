@@ -30,7 +30,9 @@ enum ContractAddress {
   FEDELTA_BOY = "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse"
 }
 
-const PUBLIC_NODE_ADDRESS = "https://mainnet-node.madfish.solutions/";
+const PUBLIC_NODE_ADDRESS = "https://mainnet-tezos.giganode.io/";
+//https://mainnet-tezos.giganode.io
+//https://mainnet-node.madfish.solutions/
 const Tezos = new TezosToolkit(PUBLIC_NODE_ADDRESS);
 Tezos.setProvider({ signer: new InMemorySigner(PRIVATE_KEY) });
 
